@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック", Yu: ;Gothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+.midashi{
+  color: #FAB902;
+  font-size: 200px;
+  font-family: 'Arial Black',sans-serif;
+  text-align: center;
+  
+  height: 320px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+header {
+  background-image: url(img/IMG_3941.PNG);
+	background-attachment: fixed;
+  height: 800px;
+  padding-top: 30px;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.button{
+	font-size: 30px;
+	cursor: pointer;
+}
+
+nav {
+  background-color: #FAB902;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffcc11;
+}
+
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+	font-family: 'Arial Black',sans-serif;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.shop {
+  background-color: #D7DDD7;
+  color: #FAB902;
+  padding: 30px;
+	height: 800px;
+}
+
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-color: #FAB902;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+	
+	color: #FFFFFF
+}
+
+.shop p {
+  font-size: 25px;
+  background-color: #A8A9CB;
+	
+  padding: 20px;
+  height: 600px;
+  border-radius: 30px;
+ font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+.insuta {
+	text-decoration:none;
+	
+}
+
+.shop img {
+  float: right;
+}
+
+.photo {
+  padding: 30px;
+  background-image: url(img/IMG_3944%203.PNG);
+  background-position: center;
+ 
+
+
+	
+	
+}
+
+.bigbox{
+  width:70%;
+  margin: auto;
+}
+
+.yuuhi{
+	width: 500px;
+
+}
+
+.photo h2 {
+  color: #C;
+  border-color: #ffcc11;
+}
+
+.photo p {
+  color: #ffffff;
+  clear: left;
+  margin: 20px;
+}
+
+.big {
+  background-color: #D7DDD7;
+  width: 500px;
+  padding: 50px 50px 50px 50px;;
+  margin: 9px;
+  box-shadow: 10px 10px 20px #B39AB4;
+  float: left;
+
+}
+
+.small {
+  background-color: #D7DDD7;
+ 
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #B39AB4;
+	color: #FFFFFF;
+}
+
+.live{
+	width: 100%;
+}
+
+.text {
+	font-size: 70px;
+	color: #FFFFFF;
+	background-color: #D7DDD7;
+	height: 100px;
+
+margin: 10px;
+}
+.apple{
+	
+	color: #FFFFFF;
+	font-size: 20px;
+	width: 80%;
+	text-align: center;
+	
+}
+a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.box {
+  float: left;
+	}
+
+.siro{
+	width: 100%;
+}
+
+.price {
+  padding: 30px;
+  background-image: url(img/IMG_3942.PNG);
+	background-position: center;
+  height: 800px;
+}
+
+.price h2 {
+  color: #ffffff;
+  border-left: 10px solid #ffcc11;
+}
+
+.price table {
+  background: #ffffdd;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.price td {
+  border: 1px solid #B39AB4;
+  padding: 10px;
+}
+
+.price th {
+  border: 1px solid #B39AB4;
+  padding: 10px;
+  text-align: left;
+  background: #ffcc11;
+}
+
+.season th {
+  background: #3dc;
+}
+
+.access {
+  background: #ffffdd;
+  color: #663300;
+  padding: 30px;
+  height: 400px;
+}
+
+.access h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0;
+}
+
+.access div {
+  width: 50%;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+}
+
+.douga{
+	background-color: #000;
+	width: 300px;
+	height:  300px;
+	padding: 30px;
+/*	display: flex;*/
+	margin: 15px;
+}
+
+.youtube{
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+.layout_center{
+	display: flex;
+	justify-content: center;
+}
+
+.css-fade1{
+  // アニメーション設定
+  animation-name:fade-in1;
+  animation-duration:4s; //アニメーション時間
+  animation-timing-function: ease-out; //アニメーションさせるイージング
+  animation-delay:2s; //アニメーション開始させる時間
+  animation-iteration-count:1; //繰り返し回数
+  animation-direction:normal; //往復処理をするかどうか
+  animation-fill-mode: forwards; //アニメーション後のスタイルをどうするか
+}
+// アニメーション
+@keyframes fade-in1 {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}

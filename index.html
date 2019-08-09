@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>MASAHARU</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <header>
+    <h1 class="midashi">HELLO</h1>
+    <div class="layout_center">
+    	<p class="button" id="hello_button">↓</p>
+    </div>
+  </header>
+	<header id="header_2">
+    <h1 class="midashi">MASAHARU</h1>
+    <div class="layout_center">
+    	<p class="button" id="name_button">↓</p>
+    </div>
+  </header>
+  <nav id="navigation">
+    <ul>
+      <li><a href="#shop">DESCRIPTION</a></li>
+      <li><a href="#photo">PHOTO</a></li>
+      <li><a href="#price">MUSICS</a></li>
+      
+    </ul>
+  </nav>
+
+  <section class="shop" id="shop">
+    <h2 class="title">masaharu</h2>
+    <p>
+      どーもこんにちはマサハルです。
+      <br>趣味は音楽を聴くことです。
+ <br> My Instagram 
+   <a href="https://www.instagram.com/masaharu483/" class="insuta">masaharu.instagram</a>
+    </p>
+    
+  </section>
+
+  <section class="photo" id="photo">
+    <h2 class="title">Photo album</h2>
+    
+    <div class="bigbox">
+      <div class="big css-fade1">
+        <img src="img/IMG_0529.jpg" class="yuuhi">
+        <h3 class="text">PHOTO</h3>
+      </div>
+			<div class="box">
+				<div class="small css-fade1">
+					<img src="img/IMG_0494.jpg" class="siro">
+
+					<h3>PHOTO</h3>
+				</div>
+				<div class="small css-fade1">
+					<img src="img/IMG_1099.jpg" class="live">
+					<h3>PHOTO</h3>
+				</div>
+			</div>
+				<p class="apple">他はInstagramで
+					<a href="https://www.instagram.com/masaharu483/" >masaharu.instagram</a>
+				</p>
+	  </div>
+  </section>
+
+  <section class="price" id="price">
+    <h2 class="title">Favorite music</h2>
+    <article class="layout_center">
+			<div class="douga">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/EQ94zflNqn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+			</div>
+			<div class="douga">
+				 <iframe width="560" height="315" src="https://www.youtube.com/embed/RE87rQkXdNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+			</div>
+	  </article>
+  </section>
+  <footer>&copy; Masaharu</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+		$('#hello_button').click(function() {
+		  $("html,body").animate({scrollTop:$('#header_2').offset().top});
+		});
+		
+		$('#name_button').click(function() {
+		  $("html,body").animate({scrollTop:$('#navigation').offset().top});
+		});
+	</script>
+</body>
+</html>
